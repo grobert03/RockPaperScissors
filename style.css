@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+
+}
+
+ol, li {
+    margin: 0 auto;
+    padding: 0;
+}
+
+div#score {
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
